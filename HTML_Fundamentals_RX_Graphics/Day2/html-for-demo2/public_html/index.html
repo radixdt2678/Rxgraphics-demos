@@ -13,7 +13,6 @@
     </header>
     <section>
         <div class="container">
-
             <div class="border-bottom">
                     <div class="d-flex ">
                         <p class="num">1)</p>
@@ -48,7 +47,6 @@
                             <audio controls autoplay>
                                 <source src="./assets/audio/audio.mp3" type="audio/mpeg">
                               </audio>
-
                         </div>
                     </div>
             </div>
@@ -75,17 +73,17 @@
                     <p class="num">5)</p>
                     <div class="had-cons">
                         <table border="1px">
-                            <tr style="border: 1px solid;"class="tb-1">
-                                <td>Company</td>
-                                <td>Contact</td>
-                                <td>Country</td>
+                            <tr style="border: 1px solid;">
+                                <th>Company</th>
+                                <th>Contact</th>
+                                <th>Country</th>
                             </tr>
-                            <tr class="tb-2">
+                            <tr >
                                 <td>Lorem ipsum</td>
                                 <td>sed quia consequuntur</td>
                                 <td>usa</td>
                             </tr>
-                            <tr class="tb-2">
+                            <tr>
                                 <td>sed quia consequuntur</td>
                                 <td>commodi consequatur</td>
                                 <td>Mexico</td>
@@ -99,68 +97,57 @@
                     <p class="num">6)</p>
                     <div class="had-cons1">
                         <!-- <form action=""></form> -->
-                        <form action="pratice.html" class="ff-1">            
+                        <form action="pratice.html" class="h-100 w-100">            
                             <div>
-                              <label class="rl" for='full-name' style="font-size: 18px; font-family:Arial">First Name :</label>
-                                <input id='full-name' name='full-name' type='text' style="padding: 8px; border: 1px solid #D7D7D7;" placeholder="First Name"/><br>
-  
+                                <label  for='full-name' style="font-size: 18px; font-family:Arial">First Name :</label>
+                                    <input id='full-name' name='full-name' type='text' style="padding: 8px; border: 1px solid #D7D7D7;" placeholder="First Name"/><br>
                             </div>
                             <div>
-                                <label class="rl" for='middle-name' style="font-size: 18px; font-family:Arial">Middle Name :</label>
-                                <input  id='full-name' name='middle-name' type='text' style="padding: 8px; border: 1px solid #D7D7D7;" placeholder="Middle Name"/><br>
+                                <label for='middle-name' style="font-size: 18px; font-family:Arial">Middle Name :</label>
+                                    <input  id='full-name' name='middle-name' type='text' style="padding: 8px; border: 1px solid #D7D7D7;" placeholder="Middle Name"/><br>
                             </div>
                           
-                            <label  class="rl" for='last-name' style="font-size: 18px; font-family:Arial">Last Name :</label>
-                            <input id='full-name' name='last-name' type='text' style="padding: 8px; border: 1px solid #D7D7D7;" placeholder="Last Name"/><br>
+                            <label for='last-name' style="font-size: 18px; font-family:Arial">Last Name :</label>
+                                <input id='full-name' name='last-name' type='text' style="padding: 8px; border: 1px solid #D7D7D7;" placeholder="Last Name"/><br>
 
-                             <label class="rl" for='email' style="font-size: 18px; font-family:Arial">Email ID:</label>
-                            <input id='email'name='email'type='email' style="padding: 8px; border: 1px solid #D7D7D7;" placeholder='email@example.com'/><br>
+                            <label for='email' style="font-size: 18px; font-family:Arial">Email ID:</label>
+                                <input id='email'name='email'type='email' style="padding: 8px; border: 1px solid #D7D7D7;" placeholder='email@example.com'/><br>
 
-                            <label for='Number' class="rl" style="font-size: 18px; font-family:Arial">Mobile Number:</label>
-                            <input type="number" step="10" style="padding: 8px; border: 1px solid #D7D7D7;" placeholder="Mobile Number"/><br>
+                            <label for='Number'  style="font-size: 18px; font-family:Arial">Mobile Number:</label>
+                                <input type="number" step="10" style="padding: 8px; border: 1px solid #D7D7D7;" placeholder="Mobile Number"/><br>
 
-                            
-                            <label for="date" class="rl" style="font-size: 18px; font-family:Arial">Date:</label>
-                            <input type="date" style="padding: 8px; border: 1px solid #D7D7D7;" name="date"><br>
-                            <label for="date-time" class="rl" style="font-size: 18px; font-family:Arial">Date Time:</label>
-                            <input type="datetime-local" style="padding: 8px; border: 1px solid #D7D7D7;" name="date-time"><br>
+                            <label for="date"  style="font-size: 18px; font-family:Arial">Date:</label>
+                                <input type="date" style="padding: 8px; border: 1px solid #D7D7D7;" name="date"><br>
 
+                            <label for="date-time"  style="font-size: 18px; font-family:Arial">Date Time:</label>
+                                <input type="datetime-local" style="padding: 8px; border: 1px solid #D7D7D7;" name="date-time"><br>
                             <div class="radio">
-                                    <label class="rl" style="font-size: 18px; font-family:Arial">Gender:</label>
+                                <label  style="font-size: 18px; font-family:Arial">Gender:</label>
                                     <input type="radio" id="male" name="Gender" value="Male"><label style="width: 7%;" for="male">Male</label>
-                                    <input type="radio" id="Female"name="Gender" value="femle"><label  for="Female">Female</label>
-                                    
+                                    <input type="radio" id="Female"name="Gender" value="femle"><label  for="Female">Female</label>                                    
                             </div>
-                            <label class="rl" style="font-size: 18px; font-family:Arial">Select City:</label>
-                            <select id="country" name="Country">
-                                <option value="Ind">India</option>
-                                <option value="ca">Canada</option>
-                                <option value="usa">USA</option>
+                            <label style="font-size: 18px; font-family:Arial">Select City:</label>
+                                <select id="country" name="Country">
+                                    <option value="India">India</option>
+                                    <option value="Canada">Canada</option>
+                                    <option value="usa">USA</option>
                                 </select><br>
                             <div class="radio">
-                                <label class="rl" style="font-size: 18px; font-family:Arial">Languages:</label>
+                                <label  style="font-size: 18px; font-family:Arial">Languages:</label>
                                 <input type="radio" id="english" name="languages" value="English"><label for="english"  style="width: 7%;">English</label>
                                 <input type="radio" id="gujarati" name="languages" value="Gujarati"><label for="gujarati" style="width: 7%;">Gujarati</label>
                                 <input type="radio" id="hindi" name="languages" value="Hindi"><label for="hindi">Hindi</label>
-                                
-                                
-                                
                             </div>
-                            <label for="folder" class="rl" style="font-size: 18px; font-family:Arial">Folder:</label>
-                            <input type="file" name="file"><br>
-                            
-                            
-                            <label for="password" class="rl" style="font-size: 18px; font-family:Arial">password:</label>
-                            <input type="password" style="padding: 8px; border: 1px solid #D7D7D7;" ><br>
-                            <label for="color" class="rl" style="font-size: 18px; font-family:Arial">color:</label>
-                            <input type="color"  name="Color"><br>                            
-                            <label for="range" class="rl"style="font-size: 18px; font-family:Arial">Range:</label>
-                            <input type="range" id="vol" name="range" min="0" max="50"><br>
-
-                              <input type="submit" value="Submit" class="subbtn">
-                              <input type="reset" value="reset" class="rebtn">
-
-                                
+                            <label for="folder"  style="font-size: 18px; font-family:Arial">Folder:</label>
+                                <input type="file" name="file"><br>
+                            <label for="password"  style="font-size: 18px; font-family:Arial">password:</label>
+                                <input type="password" style="padding: 8px; border: 1px solid #D7D7D7;" ><br>
+                            <label for="color"  style="font-size: 18px; font-family:Arial">color:</label>
+                                <input type="color"  name="Color"><br>                            
+                            <label for="range" style="font-size: 18px; font-family:Arial">Range:</label>
+                                <input type="range" id="vol" name="range" min="0" max="50"><br>
+                                <input type="submit" value="Submit" class="subbtn">
+                                <input type="reset" value="reset" class="rebtn">                                
                         </form>
                     </div>
                 </div>
@@ -179,9 +166,7 @@
                     </div>
                 </div>
             </div>
-
-        </div>
-        
+        </div>        
     </section>
 </body>
 </html>
