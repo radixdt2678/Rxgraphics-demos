@@ -9,56 +9,55 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="header">
-        <nav>
-        <div class="container d-flex">
-            <div class="logo">
-                <a href="#"><img src="./assets/image/logo.png" alt="image" class="logo-img" height="30" width="30"></a></div>
-               
-                <div class="nav-bar">
-                    <ul class="topnav">
-                        <li><a href="#" class="nav-link active" link="red" alink="red" vlink="red">Home</a></li>
-                        <li><a href="#" class="nav-link">Html</a></li>
-                        <li><a href="#" class="nav-link">Css</a></li>
-                        <li><a href="#" class="nav-link">Layout</a></li>
-                        <li><a href="#" class="nav-link">Bootstrap</a></li>
+    <header>
+        <div class="container">
+            <nav class="d-flex align-item-center">
+                <div class="logo col-2">
+                    <a href="#"><img src="./assets/image/logo.png" alt="image" class="logo-img" height="54" width="202"></a>
+                </div>
+                   
+                <div class="nav-bar col-6">
+                    <ul class="topnav d-flex ml-0 gap-50">
+                        <li><a href="#" class="nav-link active " link="red" alink="red" vlink="red">Home</a></li>
+                        <li><a href="#" class="nav-link text-primary">Html</a></li>
+                        <li><a href="#" class="nav-link text-primary">Css</a></li>
+                        <li><a href="#" class="nav-link text-primary">Layout</a></li>
+                        <li><a href="#" class="nav-link text-primary">Bootstrap</a></li>
                     </ul>
                 </div> 
-                <div class="search-in">
-                    
+                <div class="search-in col-3">
                     <input type="text" class="search__input" placeholder="Enter keyword, Item # or Part #">
-                    <a href="#" class="icn1"><i class="fa fa-search" aria-hidden="true"></i></a>
-                </div>               
-        </div> 
-    </nav>
-    </section>
-    <section class="banner-section">
+                    <!-- <a href="#" class="icn1"><i class="fa fa-search" aria-hidden="true"></i></a> -->
+                </div>
+            </nav>               
+        </div>
+</header>
+    <section class="banner-section pt-5">
         <div class="container main">
-            <div class="content">
-                    <h1>Lorem ipsum</h1>
-                    <p>"<b>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</b> sed do eiusmod <small>tempor incididunt</small> ut labore <sup>et dolore</sup> magna aliqua.<em>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</em> consequat. Duis aute irure dolor in <del>reprehenderit </del> <u>in voluptate velit</u>  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id <mark>est laborum.</mark> "</p>
+            <div class="banner-content text-center">
+                    <h1 class="text-primary font-40 pb-4">Lorem ipsum</h1>
+                    <p class="col-8 mx-auto">"<b>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</b> sed do eiusmod <small>tempor incididunt</small> ut labore <sup>et dolore</sup> magna aliqua.<em>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</em> consequat. Duis aute irure dolor in <del>reprehenderit </del> <u>in voluptate velit</u>  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id <mark>est laborum.</mark> "</p>
             </div>
         </div>
                 
     </section>
-    <section class="asides">
+    <section class="asides pt-5">
         <div class="container">
-            <h2 class="h2-l">Lorem ipsum</h2>
+            <h2 class="font-40 text-primary text-center">Lorem ipsum</h2>
             <div class="d-flex colum-slide">
-                <div class="w-33">
+                <div class="col-4">
                     <h3 class="h3-l"></h3>
                     <ul>
-                        <li class="h3-l">Lorem ipsum</li>
-                        <li style="list-style: none;">
+                        <li class="h3-l">Lorem ipsum
                             <ol type="1" class="o1">
                                 <li><b>Lorem ipsum dolor sit amet, consec-tetuer adipiscing elit, sed diam nonummy nibh euismod</b>  </li>
                                 <li><b>Lorem ipsum dolor sit amet, consec-tetuer adipiscing elit, sed diam nonummy nibh euismod</b>  </li>
                             </ol> 
-                        </li> 
+                        </li>
                     </ul>
                     
                 </div>
-                <div class="w-33">
+                <div class="col-4">
                     <ul>
                         <li class="h3-l">Lorem ipsum</li>
                         <li style="list-style: none;">
@@ -69,7 +68,7 @@
                         </li> 
                      </ul>
                 </div>
-                <div class="w-33">
+                <div class="col-4">
                     <ul>
                         <li class="h3-l">Lorem ipsum</li>
                         <li style="list-style: none;">
@@ -86,12 +85,12 @@
     <section>
         <div class="s-c">
             <div class="slide-container">
-                <h2 class="h2-l">Lorem ipsum</h2>
+                <h2 class="text-primary font-40">Lorem ipsum</h2>
                     <div class="aside-1 d-flex">
-                        <div class="aside-img w-50">
-                            <img src="./assets/image/aside-1.png" alt="l1-img" class="a1-img" height="50px" width="50px">
+                        <div class="aside-img col-6">
+                            <img src="./assets/image/aside-1.png" alt="l1-img" class="a1-img  col-12 h-100 object-fit-cover" height="571px" width="300px">
                         </div>
-                        <div class="aside-content w-50">
+                        <div class="aside-content col-6">
                             <h2 class="aside-head">Lorem ipsum</h2>
                             <p class="par-asid">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt utlaoreet dolore magna aliquam erat volutpat.</p>
                             <p class="par-asid">sed diam nonummy nibh euismod tincidunt utlaoreet dolore magna aliquam erat volutpat.</p>
@@ -106,28 +105,30 @@
         <div class="s-c">
             <div class="slide-container">
                         <div class="aside-1 d-flex">
-                            <div class="aside2-content w-50">
-                                <h2 class="aside-head">Lorem ipsum</h2>
+                            <div class="aside2-content col-6">
+                                <h2 class="text-primary font-40">Lorem ipsum</h2>
                                 <p class="par-asid">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt utlaoreet dolore magna aliquam erat volutpat.</p>
                                 <p class="par-asid">sed diam nonummy nibh euismod tincidunt utlaoreet dolore magna aliquam erat volutpat.</p>
                                 <a href="#" class="aside-v">View More</a>     
                             </div>
-                            <div class="aside-img w-50">
-                                <img src="./assets/image/asidde-2.png" alt="l1-img" class="a1-img" height="50px" width="50px">
+                            <div class="aside-img col-6">
+                                <img src="./assets/image/asidde-2.png" alt="l1-img" class="a1-img col-12 h-100 object-fit-cover" height="571px" width="300px">
                             </div>
                     </div>
             </div>
         </div>            
     </section>
     
-    <section class="footer">
+    <footer>
        <div class="container">
             <div class="foter">
                 <h2>Radixweb</h2>
                 <h6><address>Ekyarth, B/H Nirma University, chharodi, Ahmedabad-382481, India.</address></h6>
             </div>            
         </div>
-    </section>
+    </footer>
     
 </body>
 </html>
+
+
