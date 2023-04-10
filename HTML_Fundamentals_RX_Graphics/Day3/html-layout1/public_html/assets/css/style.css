@@ -304,6 +304,10 @@ footer address {
   .pb-lg-3 {
     padding-bottom: 30px;
   }
+  .pr-5{padding-right: 30px;}
+  .pl-lg-3{
+    padding-left: 30px;
+  }
   .pt-lg-3 {
     padding-top: 30px;
   }
