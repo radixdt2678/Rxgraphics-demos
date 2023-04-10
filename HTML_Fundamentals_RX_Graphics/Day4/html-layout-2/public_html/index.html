@@ -10,10 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <!-- Main CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
-
 </head>
 <body>
-    <header >     
+    <header>     
         <nav class="d-flex align-item-center">
           <div class="logo col-2">
             <a href="#"><img src="./assets/image/logo.png"
@@ -60,60 +59,67 @@
         </nav>      
     </header>
 
-    <section class="banner-section pt-5 pb-5 pb-lg-3 pb-sm-1 mt-5 ">
+    <section class=" banner-section pt-5 pb-5 pb-lg-3 pb-sm-1 mt-5 ">
         <div class="container">
-            <div class="content">
-                    <h1 class="text-center font-40 text-gray">Lorem ipsum</h1>
-                    <p class="font-20 text-center text-gray">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
-                        sed diam nonummy nibh euismod </p>
-                    <table border="1px solid" >
-                        <tr>
-                            <th class="">Company</th>
-                            <th class="">Contact</th>
-                            <th class="">Country</th>
-                        </tr>
-                        <tr>
-                            <td>Lorem ipsum</td>
-                            <td>Maria Anders</td>
-                            <td>Sweden</td>
-                        </tr>
-                        <tr>
-                            <td>Lorem ipsum doller</td>
-                            <td>Christina Berglund</td>
-                            <td>Germany</td>
-                        </tr>
-                        <tr>
-                            <td>Lorem ipsum quie</td>
-                            <td>Francisco Chang</td>
-                            <td>Maxico</td>
-                        </tr>
-                    </table>
-            </div>
+            <h1 class="text-center font-40 text-gray">Lorem ipsum</h1>
+            <p class="font-20 text-center text-gray col-4 mx-auto font-weight-bold ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+                sed diam nonummy nibh euismod </p>
+
+            <table class="mt-5 mx-auto col-12">
+                <thead class="bg-mighty-gray text-left font-22">
+                    <tr>
+                        <th class="px-3">Company</th>
+                        <th>Contact</th>
+                        <th class="px-1">Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="px-3">Lorem ipsum</td>
+                        <td>Maria Anders</td>
+                        <td>Sweden</td>
+                    </tr>
+                    <tr>
+                        <td class="px-3">Lorem ipsum doller</td>
+                        <td>Christina Berglund</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td class="px-3">Lorem ipsum quie</td>
+                        <td>Francisco Chang</td>
+                        <td>Maxico</td>
+                    </tr>
+                </tbody>               
+            </table>            
         </div>                
     </section>
 
-    <section class="">
+    <section class="pt-5">
         <div class="container">
-            <h2 class=" ">Lorem ipsum</h2>
-            <p class=" ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <h2 class="font-40 text-center">Lorem ipsum</h2>
+            <p class="mx-auto col-6 text-center font-20">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
         </div>
     </section>
     
-    <section class="video-section">
+    <section class="video-section pt-5">
         <div class="container">
-            <h2 class=" ">Lorem ipsum</h2>
-            <div class="videos">
-                <video width="320" height="240" controls autoplay>
-                    <source src="./assets/video/video.mp4" type="video/mp4">                              
+            <h2 class="font-40 text-center">Lorem ipsum</h2>
+            <div class="text-center pt-3 video-content">
+                <video width="1046" height="424" controls autoplay class="object-fit-cover col-12 h-100">
+                    <source src="./assets/video/video.mp4" type="video/mp4" >                              
                 </video>
             </div>            
         </div>
     </section>
 
-    <section class="audio-section">
+    <section class="audio-section pt-5">
         <div class="container">
-            <h2 class=" ">Lorem ipsum</h2>
-            <div class="audios">
+            <h2 class="font-40 text-center">Lorem ipsum</h2>
+            <div class="text-center">
                 <audio controls autoplay>
                     <source src="./assets/audio/audio.mp3" type="audio/mpeg">
                 </audio>
@@ -121,108 +127,99 @@
         </div>
     </section>
 
-    <section class="form-section">
+    <section class="form-section pt-5">
         <div class="container">
-            <h2 class="">Lorem ipsum</h2>
-            <div class="form-f">
-                <form action="#">
-
-                    <div class="d-flex gap">
-                        <div>
+            <h2 class="font-40 text-center">Lorem ipsum</h2>
+            <div class="col-4 col-lg-6 d-flex justify-content-center mx-auto">
+                <form action="#" class="col-12">
+                    <div class="d-flex gap-15 pb-2">
+                        <div class="col-6">
                             <label for="fname" >First Name:</label><br>
-                            <input type="text" id="fname" class="input" placeholder="first Name" required> 
+                            <input type="text" id="fname" class="text-gray-200 col-12 p-8" placeholder="first Name" required> 
                         </div>
-                        <div>
+                        <div class="col-6">
                             <label for="lname" >Last Name:</label><br>
-                            <input type="text" id="lname" class="input" placeholder="last Name" required>
+                            <input type="text" id="lname" class="text-gray-200 col-12 p-8" placeholder="last Name" required>
                         </div>
                     </div>
 
                     <label for="email" >Email:</label><br>
-                    <input type="email" class="input2" id="email" placeholder="@gmail.com" required><br>
+                    <input type="email" class="col-12 p-8 mb-2 text-gray-200" id="email" placeholder="@gmail.com" required><br>
 
-                    <div class="d-flex gap">
-                        <div>
+                    <div class="d-flex gap-15 pb-2">
+                        <div class="col-6">
                             <label for="m-phone" >Mobile Number:</label><br>
-                            <input type="number" class="input" placeholder="Mobile-Number"  onKeyPress="if(this.value.length==12) return false;"></div>
-                        <div>
+                            <input type="number" class="text-gray-200 col-12 p-8" placeholder="Mobile-Number"  onKeyPress="if(this.value.length==12) return false;"></div>
+                        <div class="col-6">
                             <label for="website" >Website:</label><br>
-                            <input type="url" class="input" placeholder="websites">
+                            <input type="url" class="text-gray-200 col-12 p-8" placeholder="websites">
                         </div>
                     </div>
 
-                    <div class="d-flex gap" >
-                        <div>
+                    <div class="d-flex gap-15 pb-2">
+                        <div class="col-6">
                             <label for="date" >Date:</label><br>
-                                <input type="date" class="input" name="date" max="2001-01-02">
+                            <input type="date" class="col-12 p-8 text-gray-200" name="date" max="2001-01-02">
                         </div>
-                        <div>
-                            <label for="date-time" style="font-size: 18px; font-family:Arial">Date Time:</label><br>
-                                <input type="datetime-local" class="input" name="date-time">
+                        <div class="col-6">
+                            <label for="date-time" style="font-size: 18px; font-family:Arial">Date Time:</label>
+                            <input type="datetime-local" class="col-12 p-8 text-gray-200" name="date-time">
                         </div>
                     </div>                    
                     
-                    <div class="d-flex s-l">
-                        <div>
+                    <div class="d-flex gap-15 pb-2">
+                        <div class="col-6">
                             <label for="country" >Select City:</label><br>
-                            <select id="country" name="Country" class="input3">
-                                <option value="Ind">India</option>
-                                <option value="ca">Canada</option>
+                            <select id="country" name="Country" class="text-gray-200 col-12 p-8">
+                                <option value="India">India</option>
+                                <option value="canada">Canada</option>
                                 <option value="usa">USA</option>
                             </select> 
                         </div>
-                        <div>
+                        <div class="col-6">
                             <label for="gender" >Gender:</label><br>
-                            <select id="gender" name="gender"class="input3">
+                            <select id="gender" name="gender"class="col-12 p-8 text-gray-200">
                                 <option value="Male">Male</option>
                                 <option value="Female">Female</option>
                                 <option value="other">Other</option>
                             </select>
                         </div>
-                    </div><br>
-
-                    <div class="checkbox">
-                        <label for="Games">Games :</label>
-                        <input type="checkbox" name="Games" id="Cricket" class="checkin">
-                        <label for="Cricket">Cricket</label>
-
-                        <input type="checkbox" name="Games" id="Vollyball" class="checkin">
-                        <label for="Cricket">Vollyball</label>
-
-                        <input type="checkbox" name="Games" id="Hockey" class="checkin">
-                        <label for="Cricket">Hockey</label>
-
-                        <input type="checkbox" name="Games" id="Table-tennis" class="checkin">
-                        <label for="Cricket">Table-tennis</label>
                     </div>
 
-                    <label for="folder" class="rl" >Folder:</label>
-                            <input type="file" name="file" class="input4"><br>
-            
-                    <label for="color" class="rl"  >color:</label>
-                            <input type="color" class="input5" name="Color"><br>                            
-    
-                    <label for="range" class="rl">Range:</label>
-                            <input type="range" id="vol" name="range" min="0" max="50" class="input6"><br>
-
+                    <div class="pb-3 d-flex align-item-center gap-50">
+                        <label for="folder">Folder:</label>
+                            <input type="file" name="file">
+                    </div>
+                   
+                    <div class="pb-2 d-flex align-item-center gap-50">
+                        <label for="color">color:</label>
+                            <input type="color" class="text-gray-200" name="Color">
+                    </div>
+                                               
+                    <div class="pb-2 d-flex align-item-center gap-50">
+                        <label for="range">Range:</label>
+                            <input type="range" id="vol" name="range" min="0" max="50" class="text-gray-200">
+                    </div>
                     
-                    <input type="submit" value="Submit" class="subbtn">
-                    <input type="reset" value="reset" class="rebtn">
+                    <div class="d-flex align-item-center gap-15 pt-1">
+                        <input type="submit" value="Submit" class="text-gray submit-btn px-3 py-2 font-18 font-weight-bold">
+                        <input type="reset" value="reset" class="text-gray reset-btn px-4 py-2 font-18 font-weight-bold">
+                    </div>
                     
                 </form>
             </div>
         </div>
     </section>
 
-    <section>
+    <section class="pt-5 pb-3">
         <div class="container">
-            <div class="iframes">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319" class="if-map" frameborder="0"></iframe>
+            <div class="text-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319" class="col-lg-12" frameborder="0" height="209" width="570"></iframe>
             </div>
         </div>
     </section>
 
-    <footer class="mt-5 bg-gray-200">
+    <footer class="mt-5 bg-gray-200 pt-5 pt-sm-0">
         <div class="container">
           <div class="pt-3 pb-2 text-center">
             <h4 class="mb-0">Radixweb</h4>
@@ -237,3 +234,4 @@
 
 </body>
 </html>
+
