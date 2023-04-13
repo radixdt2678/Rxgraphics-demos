@@ -81,7 +81,19 @@ a {
 }
 
 /* Padding & Margin */
-
+.p-12{
+   padding: 12px;
+}
+.p-8 {
+   padding: 8px;
+}
+.py-3 {
+   padding-top: 16px;
+   padding-bottom: 16px;
+ }
+.pt-4 {
+   padding-top: 24px ;
+ }
 .pt-150 {
    padding-top: 100px;
 }
@@ -183,7 +195,10 @@ a {
 .mr-1 {
    margin-right: 4px;
 }
-
+.px-57{
+   padding-right: 57px;
+   padding-left: 57px;
+}
 
 /* Width */
 
@@ -243,9 +258,7 @@ a {
 .line-height-40 {
    line-height: 40px;
 }
-.p-8 {
-   padding: 8px;
-}
+
 .list-style-none {
    list-style: none;
 }
@@ -439,6 +452,7 @@ footer address {
 .reset-btn {
    background-color: transparent;
    color: var(--text-black);
+   
 }
 input::placeholder {
    color: #dadada;
@@ -558,6 +572,10 @@ input::placeholder {
    }
 }
 @media screen and (max-width: 575px) {
+   .px-57 {
+      padding-right: 24px;
+      padding-left: 24px;
+  }
    .gap-sm-50 {
       gap: unset;
    }
