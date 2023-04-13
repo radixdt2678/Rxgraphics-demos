@@ -8,12 +8,11 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body class="bg-mighty-yellow">
+  <body class="bg-mighty-yellow pt-150">
     <header class="bg-primary py-3 bg-black">
       <h1 class="text-primary font-38 text-center text-underline m-0 font-weight-bold py-4">CSS TUTORIAL</h1>
     </header>
-    <section class="pt-150">
-
+    <section>
       <div class="container">
         <div class="border-bottom-primary">
           <div class="d-flex gap-50 pt-4 pb-4 align-item-center ">
@@ -28,7 +27,7 @@
           <div class="d-flex gap-50  pt-4 pb-4">
             <p class="font-30 font-weight-bold text-black ">(2)</p>
             <div class="" style="margin-bottom: 30px">
-              <video width="317" height="235" controls>
+              <video width="343" height="255" controls>
                 <source src="./assets/video/video.mp4" type="video/mp4" />
               </video>
             </div>
@@ -48,23 +47,28 @@
           <div class="d-flex gap-50 align-item-baseline">
             <p class="font-30 font-weight-bold text-black  pt-4 pb-4">(4)</p>
             <div class="pt-4 pb-4 primary-table col-12">
-              <table border="1px" class="col-12 p-2">
+              <table border="1px" class="col-12 p-2 border-collapse">
                 <thead>
-                  <tr class="font-weight-bold font-18 text-gray " style="border: 1px solid black">
-                    <th class="col-6">Company</th>
-                    <th class="col-4">Contact</th>
-                    <th>Country</th>
+                  <tr class="font-weight-bold font-18 text-left bg-blue text-white " style="border: 1px solid black">
+                    <th class="col-6 px-3 py-2">Company</th>
+                    <th class="col-4 px-3">Contact</th>
+                    <th class="px-3 col-2">Country</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="font-14 font-weight-bold ">
-                    <td class="px-3">Lorem ipsum</td>
+                  <tr class="font-16 font-weight-bold ">
+                    <td class="px-3 py-2">Lorem ipsum</td>
                     <td class="px-3">sed quia consequuntur</td>
-                    <td class="px-3">USA</td>
+                    <td class="px-3">Sweden</td>
                   </tr>
-                  <tr class="font-14 font-weight-bold ">
-                    <td class="px-3">sed quia consequuntur</td>
-                    <td class="px-3">commodi consequatur</td>
+                  <tr class="font-16 font-weight-bold ">
+                    <td class="px-3 py-2">Lorem ipsum dolor </td>
+                    <td class="px-3">Christina Berglund</td>
+                    <td class="px-3">Germany</td>
+                  </tr>
+                  <tr class="font-16 font-weight-bold ">
+                    <td class="px-3 py-2">Lorem ipsum quia</td>
+                    <td class="px-3">Francisco Chang</td>
                     <td class="px-3">Maxico</td>
                   </tr>
                 </tbody>                
@@ -82,44 +86,44 @@
 
                   <div class="pb-3 d-flex align-item-center">
                     <label for="full-name" class="font-weight-bold col-6">First Name :</label>
-                    <input id="full-name" name="full-name" type="text" class="p-8 border col-6 " placeholder="First Name"/>
+                    <input id="full-name" name="full-name" type="text" class="p-8 border col-6 bg-transparent" placeholder="First Name"/>
                   </div>
 
                   <div class="pb-3  d-flex align-item-center">
                     <label for="middle-name" class="font-weight-bold col-6">Middle Name :</label>
-                    <input id="middle-name" name="middle-name" type="text" class="p-8 col-6 border" placeholder="Middle Name"/>
+                    <input id="middle-name" name="middle-name" type="text" class="p-8 col-6 border bg-transparent" placeholder="Middle Name"/>
                   </div>
 
                   <div class="pb-3  d-flex align-item-center">
                       <label for="last-name" class="font-weight-bold col-6">Last Name :</label>
-                      <input id="last-name" name="last-name" type="text" class="p-8 col-6 border" placeholder="Last Name" />
+                      <input id="last-name" name="last-name" type="text" class="p-8 col-6 border bg-transparent" placeholder="Last Name" />
                   </div>
                   
                   <div class="pb-3  d-flex align-item-center">
                       <label for="email" class="font-weight-bold col-6">Email ID:</label>
-                      <input id="email"  name="email" type="email" class="p-8 col-6 border" placeholder="email@example.com"/>
+                      <input id="email"  name="email" type="email" class="p-8 col-6 border bg-transparent" placeholder="email@example.com"/>
                   </div>
 
                   <div class="pb-3  d-flex align-item-center">
                       <label for="Number" class="font-weight-bold col-6">Mobile Number:</label>
-                      <input type="number" id="Number" step="10" class="p-8 border col-6 text-black" placeholder="Mobile Number"/>
+                      <input type="number" id="Number" step="10" class="p-8 border col-6 text-black bg-transparent" placeholder="Mobile Number"/>
                   </div>     
 
                   <div class="pb-3 d-flex align-item-center">
                       <label for="date" class="font-weight-bold col-6">Date:</label>
-                      <input type="date" id="date" class="p-8 col-6 border text-gray-200" name="date"/>
+                      <input type="date" id="date" class="p-8 col-6 border text-gray-200 bg-transparent" name="date"/>
                   </div>
 
                   <div class="pb-3  d-flex align-item-center">
                       <label for="date-time" class="font-weight-bold col-6">Date Time:</label>
-                      <input type="datetime-local" id="date-time" class="p-8 col-6 border text-gray-200" name="date-time"/>
+                      <input type="datetime-local" id="date-time" class="p-8 col-6 border text-gray-200 bg-transparent" name="date-time"/>
                   </div>
 
                   <div class=" pb-3  d-flex align-item-center">
                       <label class="font-weight-bold col-6">Gender:</label>
-                      <div class="d-flex gap-15">
-                          <input type="radio" id="male" name="Gender" value="Male"/><label for="male">Male</label>
-                          <input type="radio" id="Female" name="Gender" value="femle"/><label for="Female">Female</label>
+                      <div class="d-flex gap-15 ">
+                          <input type="radio" id="male" name="Gender" value="Male"/><label for="male" class="text-gray-400">Male</label>
+                          <input type="radio" id="Female" name="Gender" value="femle"/><label for="Female" class="text-gray-400">Female</label>
                       </div>
                   </div>
 
@@ -137,17 +141,17 @@
                       <label class="pr-5 col-6 font-weight-bold col-6" >Languages:</label>
                       <div class="col-6 d-flex gap-15">
                         <input type="radio" id="english" name="languages" value="English"/>
-                        <label for="english">English</label>
+                        <label for="english" class="text-gray-400">English</label>
                             <input type="radio" id="gujarati" name="languages" value="Gujarati"/>
-                        <label for="gujarati" >Gujarati</label>
+                        <label for="gujarati" class="text-gray-400">Gujarati</label>
                             <input type="radio" id="hindi" name="languages" value="Hindi"/>
-                        <label for="hindi">Hindi</label>
+                        <label for="hindi" class="text-gray-400">Hindi</label>
                       </div>
                   </div>
 
                   <div class="pb-3  d-flex align-item-center">
                       <label for="folder" class="font-weight-bold col-6">Folder:</label>
-                      <input type="file" id="folder" name="file"  class="col-6"/>
+                      <input type="file" id="folder" name="file"  class="col-6 text-gray-400"/>
                   </div>
 
                   <div class="pb-3  d-flex align-item-center">
@@ -166,8 +170,8 @@
                   </div>
 
                   <div class="d-flex gap-15 align-item-center">
-                    <input type="submit" value="Submit" title="Submit" class="submit-btn px-3 py-2 font-18 font-weight-bold bg-black text-white"/>
-                    <input type="reset" value="reset" title="Reset" class="reset-btn px-4 font-18 py-2 font-weight-bold bg-black text-white" />
+                    <input type="submit" value="Submit" title="Submit" class="border-radius submit-btn px-3 py-2 font-18 font-weight-bold bg-transparent text-black"/>
+                    <input type="reset" value="Reset" title="Reset" class=" border-radius reset-btn px-4 font-18 py-2 font-weight-bold bg-black text-white" />
                   </div>
                 </form>
               </div>
@@ -175,12 +179,12 @@
         </div>
 
         <div class="border-bottom-primary">
-          <div class="d-flex gap-50 align-item-baseline">
-            <p class="font-30 font-weight-bold text-black  pt-4 pb-4">(6)</p>
-            <div class=" pt-4 pb-4 secondary-table col-12">
-              <table border="1px" class="col-12 p-2" >
+          <div class="d-flex gap-50 align-item-baseline pt-4">
+            <p class="font-30 font-weight-bold text-black  pt-4 pb-4 mt-0">(6)</p>
+            <div class=" mt-3  pb-4 secondary-table col-12 ">
+              <table border="1px" class="col-12 p-2  border-collapse bg-blue text-white text-center border-white ">
                 <tr class="text-center font-weight-bold">
-                  <td class="col-6">Company</td>
+                  <td class="col-6 py-2">Company</td>
                   <td class="col-4">Contact</td>
                   <td>Country</td>
                 </tr>
