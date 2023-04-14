@@ -39,6 +39,7 @@
 }
 
 /* background color */
+
 .bg-mighty-yellow {
    background-color: var(--bg-mighty-yellow);
 }
@@ -63,6 +64,7 @@
 .bg-transparent {
    background-color: transparent;
 }
+
 /* text decoration */
 
 .text-underline {
@@ -211,6 +213,7 @@
 }
 
 /*  */
+
 .text-left {
    text-align: left;
 }
@@ -220,7 +223,6 @@
 .d-flex {
    display: flex;
 }
-
 .align-item-center {
    align-items: center;
 }
@@ -235,6 +237,7 @@ body {
 }
 
 /* border */
+
 .border-collapse {
    border-collapse: collapse;
 }
