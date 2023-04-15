@@ -81,8 +81,18 @@ a {
 }
 
 /* Padding & Margin */
+.w-10{
+   width:38.06px;
+   Height:38.06px;
+}
 .p-12{
    padding: 12px;
+}
+.p-50{
+   padding: 50px;
+}
+.p-15{
+   padding: 15px;
 }
 .p-8 {
    padding: 8px;
@@ -365,12 +375,15 @@ a {
 .border-collapse {
    border-collapse: collapse;
 }
+
 /* box shadow */
+
 .box-shadow {
    box-shadow: 0px 4px 11px rgba(137, 137, 137, 0.15);
 }
 
 /* Main Css Start */
+
 .container {
    max-width: 1820px;
    margin: 0 auto;

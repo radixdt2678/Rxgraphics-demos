@@ -76,6 +76,9 @@
 
 /* Padding & Margin */
 
+.p-10{
+   padding: 10px 80px 10px 10px;
+}
 .p-8 {
    padding: 8px;
 }
@@ -88,6 +91,10 @@
 }
 .pt-3 {
    padding-top: 16px;
+}
+.px-5 {
+   padding-left: 48px;
+   padding-right: 48px;
 }
 .px-4 {
    padding-left: 24px;
@@ -175,8 +182,28 @@
 .col-4 {
    width: 33.3333333333%;
 }
+.col-5 {
+   width: 41.6666666667%;
+}
 .col-6 {
    width: 50%;
+}
+.col-7 {
+   width: 58.3333333333%;
+}
+.col-8 {
+   width: 66.6666666667%;
+}
+.col-9 {
+   width: 75%;
+}
+
+.col-10 {
+   width: 83.3333333333%;
+}
+
+.col-11 {
+   width: 91.6666666667%;
 }
 .col-12 {
    width: 100%;
@@ -186,6 +213,9 @@
 
 .font-14 {
    font-size: 14px;
+}
+.font-20{
+   font-size: 20px;
 }
 .font-18 {
    font-size: 18px;
@@ -201,7 +231,9 @@
 }
 
 /* gap */
-
+.gap-30{
+   gap: 30px;
+}
 .gap-15 {
    gap: 15px;
 }
@@ -230,7 +262,7 @@
    align-items: baseline;
 }
 body {
-   font-family: "Arial";
+   font-family: "Arial",sans-serif;
    font-style: normal;
    font-weight: 400;
    line-height: 1.5;
