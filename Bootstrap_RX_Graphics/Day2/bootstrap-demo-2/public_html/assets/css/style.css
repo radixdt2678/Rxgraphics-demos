@@ -414,7 +414,7 @@ body {
 	border: none;
 	outline: none;
 	z-index: 999999;
-	opacity: 1;
+	opacity: 0;
 }
 
 .slick-next {
@@ -519,6 +519,9 @@ textarea#floatingTextarea2Disabled {
 }
 
 @media (max-width: 1191px) {
+	.bg-img2 h2 br{
+		display: none;
+	}
 	.font-20 {
 		font-size: 10px;
 	}

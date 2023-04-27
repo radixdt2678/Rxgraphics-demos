@@ -1,46 +1,7 @@
-/* $(document).ready(function(){
-       
-    $('.slider').slick({
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        arrows: false,
-        accessibility: true,
-        adaptiveHeight: true, 
-        centerMode: true,
-        centerPadding: '60px',
-        responsive: [
-            {
-              breakpoint: 768,
-              settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '0px',
-                slidesToShow: 1
-              }
-            },
-            {
-              breakpoint: 480,
-              settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '0px',
-                slidesToShow: 1
-              }
-            }
-          ]
-    });
-    
-}) */;
-/*  */
-
-
-
-  var swiper1 = new Swiper(".mySwiper", {
-    /* autoplay: {
+var swiper1 = new Swiper(".mySwiper", {
+    autoplay: {
         delay: 5000,
-    }, */
+    },
     pagination: {
       el: ".swiper-pagination",
       type: "fraction",
